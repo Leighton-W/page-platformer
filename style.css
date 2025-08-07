@@ -1,3 +1,19 @@
-p {
-    color: blue;
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 900px;
+}
+
+#display, #header, #footer{
+    border: solid;
+}
+
+#header, #footer{
+    flex-grow: 1;
+}
+
+#display{
+    flex-grow: 3;
 }
