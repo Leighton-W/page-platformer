@@ -10,8 +10,14 @@
     border: solid;
 }
 
-#header, #footer{
+#header{
     flex-grow: 1;
+    max-height: 90px;
+}
+
+#footer{
+    flex-grow: 1;
+    max-height: 45px;
 }
 
 #display{
